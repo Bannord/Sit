@@ -1,0 +1,31 @@
+.header_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 70px;
+
+  .left_side_wrapper {
+  }
+
+  .left_side_wrapper::after {
+    content: "Axe";
+    color: rgb(100, 100, 100);
+    font-size: 30px;
+    position: absolute;
+    top: 25px;
+  }
+
+  .right_side_wrapper {
+    .wrapper_list {
+      display: flex;
+
+      .header_item + .header_item {
+        margin-right: 15px;
+      }
+
+      .header_item:first-child {
+        margin-right: 15px;
+      }
+    }
+  }
+}
