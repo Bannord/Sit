@@ -1,0 +1,30 @@
+.footer_wrapper {
+  margin-top: 40px;
+  background-color: rgb(246, 241, 241);
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-between;
+
+  .numbers_of_us {
+    padding: 20px;
+    .number_item {
+      margin-bottom: 10px;
+    }
+  }
+
+  .our_brand {
+    padding: 15px;
+
+    h3 {
+      font-size: 25px;
+    }
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+}

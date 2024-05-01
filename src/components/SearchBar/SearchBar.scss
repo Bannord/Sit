@@ -1,0 +1,17 @@
+.search_bar_wrapper {
+  display: flex;
+  align-items: center;
+  .titile_search {
+    margin-right: 20px;
+  }
+
+  .search_username {
+    padding: 4px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    input {
+      border: 0;
+      outline: none;
+    }
+  }
+}

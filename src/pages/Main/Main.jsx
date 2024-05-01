@@ -1,3 +1,4 @@
+import Searchbar from "../../components/SearchBar/SearchBar";
 import "./Main.scss";
 
 const Main = () => {
@@ -15,7 +16,9 @@ const Main = () => {
         </ul>
       </div>
       <div className="right_side_bar">
-        <div className="search_container">Lorem ipsum dolor sit amet.</div>
+        <div className="search_container">
+          <Searchbar />
+        </div>
         <div className="content_container_wrapper">
           <div className="item_block_wrapper">
             <div className="img_wrapper">
